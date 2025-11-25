@@ -1,5 +1,4 @@
 let anything : any ;
-
 anything = "hello";
 
 
@@ -26,10 +25,6 @@ console.log(result2)
 
 
 
-
-
-
-
 const data:any = "arman"
 const username = data as string
-console.log(typeof username)
+console.log(typeof username);
