@@ -34,5 +34,32 @@ const getLength = (input:string|any[]) => {
     }
 }
 
-console.log(getLength('typescript'));
-console.log(getLength([10, 20, 30, 40]));
+// console.log(getLength('typescript'));
+// console.log(getLength([10, 20, 30, 40]));
+
+
+
+// problem 3
+
+
+
+
+// problem 4
+
+interface item {
+    title:string;
+    rating:number
+}
+function filterByRating(item :item[]) {
+    return item.filter((item) => item.rating >=4)
+}
+
+
+
+const books = [
+  { title: 'Book A', rating: 4.5 },
+  { title: 'Book B', rating: 3.2 },
+  { title: 'Book C', rating: 5.0 },
+];
+
+console.log(filterByRating(books));

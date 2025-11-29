@@ -26,10 +26,10 @@ const result2 : result<string,string> = ["200","30"];
 
 
 
+type user = {name:string, age: number}
 
 
-
-const userList : GenericArray<{name:string, age: number}> =[
+const userList : GenericArray<user> =[
     {
         name:"arman",
         age:20
