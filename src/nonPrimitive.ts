@@ -14,3 +14,25 @@ mixedArr.push(18)
 
 
 let couple : [string, string] = ["husbend", "wife"]
+
+
+
+
+
+
+// reference type 
+
+const user : {
+    readonly organization : "programming hero";
+    firstName: string;
+    middleName ? : string;
+    lastName: string;
+    isMarried: boolean;
+} = {
+    organization:"programming hero fire" ,
+    firstName : "shakhawat",
+    lastName: "arman",
+    isMarried: true,
+}
+
+console.log(user)
