@@ -20,6 +20,6 @@ isAdmin = true;
 
 
 
-let x : undefined = undefined;
+let x : any = undefined;
 x = 5
 x = "five"
