@@ -7,8 +7,7 @@
 
 let userName : string = "armanHossain";
 userName = "12";
-
-
+    
 let userId : number = 1234;
 let str: string = userId.toString()
 console.log(userId)

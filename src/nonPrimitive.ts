@@ -3,7 +3,7 @@
 
 let bazarList = ["eggs", "milk", "suger"];
  
-bazarList.push(true)
+bazarList.push("vagitable")
 
 
 let mixedArr : (string|number)[] = ["eggs",12, "milk",14, "suger",15];
@@ -29,7 +29,7 @@ const user : {
     lastName: string;
     isMarried: boolean;
 } = {
-    organization:"programming hero fire" ,
+    organization:"programming hero",
     firstName : "shakhawat",
     lastName: "arman",
     isMarried: true,
