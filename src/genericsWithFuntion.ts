@@ -1,14 +1,30 @@
 // Generic Function
-const createArrayWithGeneric = <T>(value: T): T[] => {
-    return [value];
-};
 
-const numberArray = createArrayWithGeneric(123); // number[]
-const stringArray = createArrayWithGeneric("hello"); // string[]
-const booleanArray = createArrayWithGeneric<boolean>(true); // boolean[]
+const createArrayWithGenerics = <T>(value:T) => {
+    return [value]
+}
 
-// Generic Tuple 
-const createArrayTupleWithGeneric = <X, Y>(param1: X, param2: Y) => {
-   return [param1, param2];
-};
-const tuple1 = createArrayTupleWithGeneric("Laptop", false);
+
+const arrString = createArrayWithGenerics("arman")
+const arrNumber = createArrayWithGenerics(222);
+const arrobject = createArrayWithGenerics({
+    id:222,
+    name:"arman"
+})
+
+
+console.log(arrString)
+console.log(arrNumber)
+console.log(arrobject)
+
+
+
+// genericsFuntionWithTuple 
+const genericsFuntionWithTuple = <X,Y>(params1: X, params2: Y) => {
+    return [params1, params2]
+}
+
+
+const arrHum = genericsFuntionWithTuple("arman",22)
+
+
