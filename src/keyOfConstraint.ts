@@ -16,5 +16,18 @@ console.log(myVehicles)
 
 
 
+const user = {
+    id:222,
+    name:"arman",
+    address: {
+        city:"dhaka"
+    }
+}
+
+const myId = user.id;
+
+
+
+
 
 
