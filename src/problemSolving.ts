@@ -16,3 +16,28 @@ const user = {
 };
 
 const result = addCreatedAt(user);
+
+
+
+
+
+const getProperty = <X,Y> (params1: X , params2 : Y) => {
+    return {params1, params2}
+}
+
+
+
+
+const name = getProperty(user, "name");      // string
+const id = getProperty(user, "id");          // number
+const isAdmin = getProperty(user, "isAdmin"); // boolean
+
+
+
+
+
+
+
+
+
+
