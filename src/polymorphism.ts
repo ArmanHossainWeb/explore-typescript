@@ -15,3 +15,15 @@ class Developer extends Person {
         console.log(`Developer sleep 6 hours`)
     }
 }
+
+
+const getSleepingHours = (param:Person) => {
+    param.getSleep()
+}
+
+
+const person1 = new Person()
+const person2 = new Student()
+const person3 = new Developer()
+
+getSleepingHours(person1)
