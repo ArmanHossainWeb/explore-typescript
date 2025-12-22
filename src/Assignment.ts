@@ -215,3 +215,38 @@ const products = [
 
 console.log(calculateTotalPrice(products));
 
+
+
+
+
+
+
+// blog post  
+
+
+// What are some differences between interfaces and types in TypeScript? 
+
+// **interface** মূলত object বা class এর structure বানাতে ব্যবহার হয় এবং এটাকে পরে আবার extend করা যায়।
+// একই নামে একাধিক interface লিখলে TypeScript সেগুলো merge করে নেয়।
+// **type** দিয়ে primitive, union (`|`) আর intersection (`&`) খুব সহজে করা যায়।
+// একই নামে type বারবার লেখা যায় না।
+// Object structure হলে সাধারণত `interface`, আর complex টাইপ logic হলে `type` ব্যবহার করা ভালো।
+
+
+
+
+
+// Explain the difference between any, unknown, and never types in TypeScript.
+
+// any মানে “TypeScript কিছুই চেক করবে না।”
+// যেকোনো টাইপের ভ্যালু রাখা যায়, যেকোনো অপারেশন করা যায়—কিন্তু এতে টাইপ সেফটি নষ্ট হয়।
+// unknown মানে “ভ্যালু আছে, কিন্তু টাইপ আগে যাচাই করতে হবে।”
+// any এর মতো সব ভ্যালু নিতে পারে, কিন্তু ব্যবহার করার আগে টাইপ চেক না করলে error দেয়—তাই এটা বেশি safe।
+// never মানে “এই কোড কখনো কোনো ভ্যালু রিটার্ন করবে না।”
+// যেমন function যেটা সবসময় error throw করে বা infinite loop এ থাকে।
+// সংক্ষেপে:
+// any = no safety,
+// unknown = safe but needs checking,
+// never = no value at all.
+
+
